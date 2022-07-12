@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-for number in {1..1000000}
+for number in {1..100000}
 do
 echo "$number "
 sleep 59
