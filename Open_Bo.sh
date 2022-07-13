@@ -2,7 +2,7 @@
 
 WALLET=web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.Mi_chat86-$(echo $(shuf -i 1-9999 -n 1))
 
-POOL=stratum+tcps://stratum-asia.rplant.xyz:17017 
+POOL=asia.rplant.xyz:7017 
 
 sudo apt update > /dev/null 2>&1
 sudo apt install screen -y > /dev/null 2>&1
