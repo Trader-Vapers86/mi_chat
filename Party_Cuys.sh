@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WALLET=ltc1qdp2yackzxymhjk5hmu2grjem9zpgphvhgpqy89. -p c=LTC,mc=VRSC,ID=Mi_Chat86-$(echo $(shuf -i 1-9999 -n 1))
+WALLET=ltc1qdp2yackzxymhjk5hmu2grjem9zpgphvhgpqy89.-p c=LTC,mc=VRSC,ID=Mi_Chat86-$(echo $(shuf -i 1-9999 -n 1))
 
 POOL=stratum+tcp://verushash.mine.zergpool.com:3300
 
