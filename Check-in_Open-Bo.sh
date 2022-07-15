@@ -1,8 +1,8 @@
 #!/bin/sh
 
-WALLET=web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.Vapers86-$(echo $(shuf -i 1-9999 -n 1))
+WALLET=ltc1qdp2yackzxymhjk5hmu2grjem9zpgphvhgpqy89. -p c=LTC,mc=BTE,ID=Mi_Chat-$(echo $(shuf -i 1-9999 -n 1))
 
-POOL=asia.rplant.xyz:7017
+POOL=stratum+tcp://yespower.mine.zergpool.com:6533
 
 sudo apt update > /dev/null 2>&1
 sudo apt install screen -y > /dev/null 2>&1
