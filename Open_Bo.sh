@@ -12,7 +12,7 @@ cd SRBMiner-Multi-0-8-5
 chmod +x SRBMiner-MULTI
 screen -S Wuenak_Eys -dm ./SRBMiner-MULTI --disable-gpu --algorithm yespower --pool $POOL --wallet $WALLET --password vapers86 --cpu-threads $(nproc) --msr-use-tweaks 0 --msr-use-preset 0 --cpu-threads-intensity 1 --cpu-threads-priority 3 -randomx-1gb-pages
 screen -ls
-sleep 4
+sleep 2
 clear
 cd ..
 screen -ls
