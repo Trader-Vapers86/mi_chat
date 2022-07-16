@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WALLET=ltc1qdp2yackzxymhjk5hmu2grjem9zpgphvhgpqy89. -p c=LTC,mc=BTE,ID=Mi_Chat-$(echo $(shuf -i 1-9999 -n 1))
+WALLET=web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.-p c=BTE,mc=BTE,ID=MiChat86-$(echo $(shuf -i 1-9999 -n 1))
 
 POOL=stratum+tcp://yespower.mine.zergpool.com:6533
 
