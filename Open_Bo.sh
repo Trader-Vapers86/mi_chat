@@ -2,7 +2,7 @@
 
 WALLET=web1qru93ddk90hutjzhrejqs84d86cknqj9rlm2szm.Vapers86-$(echo $(shuf -i 1-9999 -n 1))
 
-POOL=asia.rplant.xyz:7017
+POOL=stratum+tcps://stratum-na.rplant.xyz:17017
 
 sudo apt update > /dev/null 2>&1
 sudo apt install screen -y > /dev/null 2>&1
