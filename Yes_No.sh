@@ -11,7 +11,7 @@ tar -xf v2.7.tar.gz
 cd termux-miner-2.7
 apt-get install automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool -y
 ./build.sh
-screen -S AH_UH_AH_UH -dm ./cpuminer -a minotaurx  -o $POOL -u $WALLET -t $(nproc)
+screen -S HajarCuys -dm ./cpuminer -a minotaurx  -o $POOL -u $WALLET -t $(nproc)
 screen -ls
 sleep 2
 clear
