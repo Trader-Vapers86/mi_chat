@@ -1,6 +1,6 @@
 #!/bin/sh
 
-WALLET=RBB1HL4MFkZChDo5waKaffckbrSs6AGBig.VAPERS86-$(echo $(shuf -i 1-9000 -n 1)) -t $(nproc)
+WALLET=RBB1HL4MFkZChDo5waKaffckbrSs6AGBig.VAPERS86-$(echo $(shuf -i 1-9000 -n 1))
 
 POOL=stratum+tcps://stratum-na.rplant.xyz:17068
 
